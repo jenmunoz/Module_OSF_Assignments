@@ -1,0 +1,116 @@
+---
+title: "Assigment1_Productivity and reproducibility in ecology ad evolution"
+author: "Jmunoz"
+date: "22/10/2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Report_Assignment 1
+
+**1. Paper summary** Provide a summary of its purpose and main findings
+
+Title: Animal life history is shaped by the peace of life and the distribution of age-specific mortality and reproduction.
+
+The objective of this paper is to examine the variation of life-history strategies across the animal evolutionary tree. Specifically, the authors tested if a combination of different life-history traits  (i.e. age at first sexual reproduction, life expectancy post maturity, generation time, distribution of mortality risk, mean sexual reproductive rate and
+the spread of reproduction) is constrained by physiological limitations and by trade-offs in resource allocation, as described historically in the literature for taxonomically restricted groups.
+
+This study suggests that despite the diversity of animal forms and life-history traits, surprisingly similar life-history strategies can be found across the phylogenetic and physiological diversity of animals. 
+They found that 71 % of the variation in life-history strategies in animals can be explained by two axes of variation. The first axis is related to the "pace of life', and the second axis is associated with population variation in reproduction and age-specific mortality. Interestingly, the results also highlight that no particular life history strategy seems to be exempt from contemporary Anthropocene risk.
+
+**2. Checklist for authors.** Determine whether the journal in which the article is published has any form of a checklist for authors with respect to transparency and reproducibility. If yes, provide a link.
+
+This paper was published in Nature Ecology & evolution.
+This journal has an editorial policy in which authors are required to make materials, data, code and associated protocols to readers. 
+
+There is an editorial policy checklist that the author must complete during the manuscript assessment, **available at** https://www.nature.com/documents/nr-editorial-policy-checklist.pdf
+
+Additionally, authors are required to provide details about elements of experimental and analytical design in a reporting summary, which is published with the accepted manuscripts. A form for the *reporting summary* is **available at** https://www.nature.com/documents/nr-reporting-summary.pdf
+
+
+**3. Paper evaluation.** Evaluate the article with respect to the 10 questions in this checklist. Your answers to each question should be brief, i.e. yes / no if appropriate, or a few sentences at most.
+
+**3.1.** Were all sample sizes fully reported, including exact values for all subsets of data (e.g., each treatment group), and for all statistical analyses?
+
+*Yes*
+
+**3.2** Are the methods reported in sufficient detail to allow another researcher to gather the same data and run identical analyses?
+
+*Yes* Details on the methods are outlined clearly in the supplementary information.  
+
+**3.3**Are statistical results reported completely (considered in two parts below)?
+  a)Are statistical results for each test reported in sufficient detail?    What qualifies as ‘sufficient detail’ will differ among analyses.
+  *Yes*, details on the statistic test used are reported in detail in the supplementary information material.
+  b)Are results from all variables and from all models reported?
+  Results from all the variables mentioned are reported either in the paper and/or supplementary material. It is not clear if preliminary models and results from explanatory analyses were reported. 
+
+**3.4** Were observers kept unaware of the experimental treatment imposed on the samples (e.g., organisms, plots) when recording observations or measurements to minimize unconscious bias?
+
+There was no experimental element to this study
+
+**3.5** Did the authors explain how sample size was decided (e.g., based on a priori power analysis or logistical constraints), or when an experiment with pre-set sample sizes was terminated? If the sample size or the end of the experiment was not decided prior to the initiation of the study, was there a decision rule for when to cease data collection?
+
+*Yes* the authors used a published dataset that contained demographic data and collated additional data from literature and existing databases. The sample size was restricted to data which meet the criterium required for the analyses. The criterium was outlined in the supplementary files.
+
+
+**3.6** Did the authors develop their analysis plan, including choices of variables, without looking at the data, for instance prior to gathering data or with a dummy data set? This is most easily determined by the existence of a pre-registered analysis plan.
+
+There is no clear statement from the authors regarding the development of their analysis plan or specifying if the complete set of results were reported. Additionally, the study was not pre-registered. 
+
+**3.7** How suitable do you find the research methods without considering the outcome? Evaluate the design and methods regardless of whether or not there was a finding of “statistical significance”, or whether or not the results conform to a predicted pattern.
+
+The methods of data collection seem suitable for the research question. This study did not have an experimental approach. The data was collected mainly from a demographic dataset COMADRE,  literature and databases. It will be interesting to add some more detail regarding how databases (other than COMADRE) and other literature were selected. 
+
+**3.8**Are the sample sizes large enough to justify the authors’ conclusions? If presenting significance tests, how much power would this study have to detect statistically significant weak, moderate, and strong effects? 
+
+The sample size does not seem to be large enough for such a large scale paper. The number of species utilized in the paper is only a small portion of the animal kingdom. However, it is important to consider that data on the demography of species is still lacking for most species, and the analyses of life-history traits variation in 121 taxonomically diverse species are indeed relevant.
+
+**3.9** What does the size of the estimated effect (e.g., slope, correlation coefficient, the difference in means) suggest about its biological or practical importance, and what does uncertainty around that effect estimate suggest about the estimate’s precision?
+
+The authors found that a relatively large variation in life-history strategies was explained by a combination of few variables, suggesting that few mechanisms are responsible for this variation. The authors also found this pattern to be consistent across taxonomic groups and emphasize the biological importance of this congruence in the results.
+Additionally, the authors highlight the significance of their results in a conservation/management context. 
+
+
+**3.10**How unexpected would you judge these results to be in light of prior empirically derived understanding? The effects that are more surprising in light of robust prior information are those that had a lower prior probability of being correct.
+
+The results align with previous findings and literature. 
+
+
+Note: this is the Link to GitHub for access to the RMD file. https://github.com/jenmunoz/Module_OSF_Assignments
+
+Bibliography
+
+Submit a rendered PDF document, and be sure to include a link to OSF or Github for access to the RMD file.
+
+
+
+
+
+
+
+
+
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
